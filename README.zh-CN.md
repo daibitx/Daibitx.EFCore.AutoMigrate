@@ -1,3 +1,5 @@
+[English](README.md) | 简体中文
+
 - # Daibitx.EFCore.AutoMigrate
 
   一个基于 Entity Framework Core 的智能自动迁移库，提供安全、可控的数据库迁移方案。
