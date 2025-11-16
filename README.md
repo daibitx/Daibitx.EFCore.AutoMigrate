@@ -1,3 +1,4 @@
+English | [简体中文](README.zh-CN.md)
 - # Daibitx.EFCore.AutoMigrate
 
   An intelligent, safe, and controllable database migration toolkit built on **Entity Framework Core**, providing enhanced protection and fine-grained migration control for production environments.
