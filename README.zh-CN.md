@@ -53,8 +53,6 @@ dotnet add package Daibitx.EFCore.AutoMigrate
 
 #### 方式一：通过依赖注入（推荐）
 
-csharp
-
 ```
 // Program.cs
 var builder = WebApplication.CreateBuilder(args);
@@ -196,8 +194,6 @@ options.AsSafeMode();
 
 #### 方案一：通过 Fluent API 配置（推荐）
 
-csharp
-
 ```
 protected override void OnModelCreating(ModelBuilder modelBuilder)
 {
@@ -221,8 +217,6 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 #### 方案二：通过数据注解
 
-csharp
-
 ```
 public class MyEntity
 {
@@ -238,8 +232,6 @@ public class MyEntity
 #### 方案三：数据库层面设置
 
 在创建数据库时指定区分大小写的排序规则：
-
-sql
 
 ```
 -- SQL Server
